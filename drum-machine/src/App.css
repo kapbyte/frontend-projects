@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html, body {
+  background-color: #1D1E22;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+#app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#drum-machine {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#drums {
+  display: flex;
+  justify-content: center;
+}
+
+#display {
+  text-align: center;
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.29);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Orbitron', sans-serif;
+  height: 50px;
+  margin: 10px;
+  padding: 0 30px;
+}
+
+#display span {
+  text-align: center;
+}
+
+#drums div {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.29);
+  height: 150px;
+  margin: 10px;
+  min-width: 30px;
+  padding: 14px;
+  text-align: center;
+  user-select: none;
+}
+
+#drums div:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 70px;
+}
+
+#span {
+  color: white;
+  text-decoration: none;
+}
