@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .left {
+    width: 95%;
+    height: 84.5vh;
+  }
+  
+  .right {
+    width: 95%;
+    height: 85vh;
+    border: 1px solid;
+    overflow: auto;
+  }
+  
+  #editor {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: .5vw;
+  }
+  
+  #preview {
+    padding: 1vw;
+  }
+  
+  #title {
+    text-align: center;
+  }
