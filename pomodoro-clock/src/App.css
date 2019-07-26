@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Digital";
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+  }
+  
+  body {
+    background: #101010fc;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Righteous';
+  }
+  .container {
+    padding: 70px 0 0 0;
+  }
+  
+  .length-control {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .arrow {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .timer {
+    border: 1px solid white;
+    margin: 20px auto 10px auto;
+    width: 270px;
+    height: 160px;
+    border-radius: 50px;
+  }
+  
+  #time-left {
+    font-family: digital;
+    font-size: 80px;
+   }
+  
+  @media(max-width:450px) {
+    .length-control {
+      justify-content: center;
+    }
+  }
+  
+  @media(max-width:436px) {
+    .length-control {
+      justify-content: center;
+      padding-top: 0px;
+    }
+  }
