@@ -1,0 +1,36 @@
+.quote-text {
+    min-height: 12em;
+    border: solid;
+    max-width: 50em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 10px;
+    shadow: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #cccccc;
+  }
+  .rocksalt-font {
+    padding-top: 10px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+  }
+  .buttons {
+    text-align: center;
+  }
+  .footer {
+    text-align:center;
+    font-size:0.8em;
+    padding-top: 70px;
+  }
+  h6 {
+    padding-top: 20px;
+    padding-right: 20px;
+    float: right;
+  }
+  #tweet  a {
+    text-decoration: none;
+    color: white;
+  }
+
+ 
